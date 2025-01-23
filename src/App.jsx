@@ -7,7 +7,7 @@ function App() {
   const [images, setImages] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [term, setTerm] = useState("");
-  const apiKey = API_KEY || "18506864-7bd7882be814f02c370876429";
+  const apiKey = "18506864-7bd7882be814f02c370876429";
 
   useEffect(() => {
     async function fetchPhoto() {
