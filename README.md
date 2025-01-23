@@ -34,7 +34,7 @@ Follow these steps to run the app locally:
 
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/your-username/image-search-app.git
+   git clone https://github.com/WahidRahman123/image-search-app.git
 
 2. Navigate to the project directory:
    ```bash
