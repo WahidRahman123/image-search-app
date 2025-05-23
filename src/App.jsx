@@ -33,7 +33,7 @@ function App() {
         {isLoading ? (
           <h1 className="text-6xl text-center mx-auto mt-32">Loading...</h1>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-4 p place-items-center sm:place-items-start">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-4 place-items-center sm:place-items-stretch">
             {images.map((image) => (
               <ImageCard key={image.id} image={image} />
             ))}
